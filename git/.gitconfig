@@ -1,0 +1,9 @@
+[user]
+  name = Andres Osorio
+  email = andres.osoriogr@gmail.com
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  lg = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
