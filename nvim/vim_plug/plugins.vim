@@ -18,16 +18,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Like git gutter
   Plug 'mhinz/vim-signify' 
   " Sets upstreams for Fugitive GBrowse to be able to navigate to remote repo
-  Plug 'tpope/vim-rhubarb'
+  " Plug 'tpope/vim-rhubarb'
   " Git functionality
-  Plug 'tpope/vim-fugitive'
+  " Plug 'tpope/vim-fugitive'
 
   " Makes sure you have the latest binaries fzf
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   " Fzf 
-  Plug 'junegunn/fzf.vim'
+  " Plug 'junegunn/fzf.vim'
   " Rooter changes the working directory to the project root when you open a file or directory
   " Makes sure fzf is looking at project directory (e.g.: dir with .git in it) 
-  Plug 'airblade/vim-rooter'
+  " Plug 'airblade/vim-rooter'
 
 call plug#end()
