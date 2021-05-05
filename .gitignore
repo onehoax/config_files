@@ -5,9 +5,16 @@ google-chrome/
 gtk-3.0/
 ibus/
 mimeapps.list
-nvim/autoload/
 pop-shell/
 pulse/
 user-dirs.dirs
 user-dirs.locale
+configstore/
+monitors.xml
+monitors.xml~
+enchant/
+gedit/
+
+nvim/autoload/
+coc/
 zsh/plugins/

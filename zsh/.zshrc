@@ -10,9 +10,6 @@
 # Load aliases
 [ -f $HOME/.config/zsh/alias.zsh ] && source $HOME/.config/zsh/alias.zsh
 
-# Load exports
-[ -f $HOME/.config/zsh/exports.zsh ] && source $HOME/.config/zsh/exports.zsh
-
 # Load env vars
 [ -f $HOME/.config/zsh/env.zsh ] && source $HOME/.config/zsh/env.zsh
 
