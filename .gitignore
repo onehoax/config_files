@@ -14,6 +14,13 @@ monitors.xml
 monitors.xml~
 enchant/
 gedit/
+Code/
+libreoffice/
+nautilus/
+oni2/
+openrazer/
+pop-system-updater/
+solaar/
 
 nvim/autoload/
 coc/
