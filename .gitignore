@@ -21,6 +21,15 @@ oni2/
 openrazer/
 pop-system-updater/
 solaar/
+.gsd-keyboard.settings-ported
+dleyna-server-service.conf
+kazam/
+mozc/
+totem/
+touchegg/
+eog/
+menus/
+yelp/
 
 nvim/autoload/
 coc/
