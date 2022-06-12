@@ -30,6 +30,7 @@ touchegg/
 eog/
 menus/
 yelp/
+autostart/
 
 nvim/autoload/
 coc/

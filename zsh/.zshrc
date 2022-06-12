@@ -16,6 +16,9 @@
 # Load functions
 #[ -f $HOME/.config/zsh/functions.zsh ] && source $HOME/.config/zsh/functions.zsh
 
+# ghcup-env
+[ -f "/home/andres/.ghcup/env" ] && source "/home/andres/.ghcup/env" 
+
 # Load plugins
 [ -f $HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ] && source $HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 [ -f $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && source $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
