@@ -4,7 +4,7 @@ source ~/.config/nvim/plug_config/dracula.vim
 source ~/.config/nvim/plug_config/lightline.vim
 source ~/.config/nvim/plug_config/coc.vim
 " source ~/.config/nvim/plug_config/lsp_config.vim
-source ~/.config/nvim/plug_config/rnvimr.vim
+" source ~/.config/nvim/plug_config/rnvimr.vim
 source ~/.config/nvim/plug_config/signify.vim
 " source ~/.config/nvim/plug_config/fzf.vim
 source ~/.config/nvim/general/settings.vim
