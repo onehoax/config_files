@@ -6,3 +6,4 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias vim=nvim
+alias cs="cd /media/andres/andres_external/personal/cs/"

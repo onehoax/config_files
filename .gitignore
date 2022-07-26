@@ -32,6 +32,7 @@ menus/
 yelp/
 autostart/
 vlc/
+ibus-mozc-gnome-initial-setup-done
 
 nvim/autoload/
 coc/
