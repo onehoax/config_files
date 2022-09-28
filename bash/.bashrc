@@ -57,13 +57,12 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-#     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-# else
-#     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-# fi
-    PS1='${debian_chroot:+($debian_chroot)} \[\033[1;92m\]\W \$\[\033[m\] '
+    bold=$(tput bold)   
+    cyan=$(tput setaf 6) # \e[36m
+    reset=$(tput sgr0)   # \e[0m
+    PS1='\[$bold$cyan\]\W > \[$reset\]'
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u:\s@\w\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 unset color_prompt force_color_prompt
 
@@ -121,4 +120,7 @@ if ! shopt -oq posix; then
 fi
 
 # Set vi mode in prompt
-# set -o vi
+ set -o vi
+
+# ghcup-env
+[ -f "/home/andres/.ghcup/env" ] && source "/home/andres/.ghcup/env"

@@ -1,6 +1,33 @@
+"" #################### Windows Git Bash Settigns ####################
+"
+"" Highlight current line (for windows)
+"hi CursorLine term=bold cterm=bold guibg=Grey40
+"
+"" Cursor as block on git bash (for Windows)
+"let &t_ti.="\e[1 q"
+"let &t_SI.="\e[5 q"
+"let &t_EI.="\e[1 q"
+"let &t_te.="\e[0 q"
+
+
+colorscheme desert
+
 " set leader key
 let g:mapleader = "\<Space>"
 
+set nocompatible                        " Not compatible with Vi.
+set autoindent                          " Good auto indent
+set background=dark                     " Tell vim what the background color looks like
+set incsearch                           " Highlight as you search
+set ruler              			            " Show the cursor position all the time
+set showcmd				                      " Show cmd being typed
+set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
+set wildmenu				                    " Visual autocmplete for cmd menu
+filetype plugin on                      " Plugins used based on file type at hand.
+filetype plugin indent on               " Auto indent based on filetype.
+let g:netrw_banner=0                    " Hide banner
+let g:netrw_liststyle=3                 " Tree-like listing style
+let g:netrw_browse_split=2              " Open file in vertical split
 set termguicolors                       " True colours
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
@@ -34,9 +61,4 @@ set updatetime=300                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
-"set number                              " Line numbers
 set number relativenumber               " Hybrid line numbers
-
-" set cmdheight=2                         " More space for displaying messages
-" set autochdir                           " Your working directory will always be the same as your working directory
-" au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
