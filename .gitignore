@@ -33,9 +33,9 @@ yelp/
 autostart/
 vlc/
 ibus-mozc-gnome-initial-setup-done
+Ledger Live/
+nordvpn/
 
 nvim/autoload/
 coc/
-
-Ledger Live/
-nordvpn/
+zsh/plugins/
