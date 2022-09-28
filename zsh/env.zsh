@@ -13,8 +13,5 @@ export EDITOR="nvim"
 
 export GOPATH=$HOME/dev/go/workspace
 export GOBIN=$GOPATH/bin
-#export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 export PATH=$PATH:/usr/local/go/bin:$GOBIN
 export GO111MODULE=on
-
-export PATH="$HOME/.emacs.d/bin:$PATH"

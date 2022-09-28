@@ -36,4 +36,6 @@ ibus-mozc-gnome-initial-setup-done
 
 nvim/autoload/
 coc/
-zsh/plugins/
+
+Ledger Live/
+nordvpn/

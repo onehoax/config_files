@@ -13,9 +13,6 @@
 # Load env vars
 [ -f $HOME/.config/zsh/env.zsh ] && source $HOME/.config/zsh/env.zsh
 
-# Load functions
-#[ -f $HOME/.config/zsh/functions.zsh ] && source $HOME/.config/zsh/functions.zsh
-
 # ghcup-env
 [ -f "/home/andres/.ghcup/env" ] && source "/home/andres/.ghcup/env" 
 
