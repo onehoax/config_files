@@ -1,8 +1,8 @@
 "" #################### Windows Git Bash Settigns ####################
-"
+
 "" Highlight current line (for windows)
 "hi CursorLine term=bold cterm=bold guibg=Grey40
-"
+
 "" Cursor as block on git bash (for Windows)
 "let &t_ti.="\e[1 q"
 "let &t_SI.="\e[5 q"
@@ -10,11 +10,10 @@
 "let &t_te.="\e[0 q"
 
 
+"" ######################### Linux Settings ##########################
+
+let g:mapleader = "\<Space>"		        " set leader key
 colorscheme desert
-
-" set leader key
-let g:mapleader = "\<Space>"
-
 set nocompatible                        " Not compatible with Vi.
 set autoindent                          " Good auto indent
 set background=dark                     " Tell vim what the background color looks like
@@ -48,7 +47,7 @@ set softtabstop=2			                  " Number of spaces in tab when editing
 set shiftwidth=2                        " Change the number of space characters inserted for indentation
 set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
-set lazyredraw			                  	" Only redraw when needed
+set lazyredraw			                    " Only redraw when needed
 set showmatch				                    " Highlight matching [{()}]
 set incsearch				                    " Show partial matches while searching
 set laststatus=2                        " Always display the status line
