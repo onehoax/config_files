@@ -36,6 +36,7 @@ ibus-mozc-gnome-initial-setup-done
 Ledger Live/
 nordvpn/
 qalculate/
-nvim/autoload/
+
+nvim_old/autoload/
 coc/
 zsh/plugins/
