@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Comment.nvim"] = {
+    loaded = true,
+    path = "/home/andres/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numToStr/Comment.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/andres/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -103,6 +108,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/andres/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["netrw.nvim"] = {
+    loaded = true,
+    path = "/home/andres/.local/share/nvim/site/pack/packer/start/netrw.nvim",
+    url = "https://github.com/prichrd/netrw.nvim"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/andres/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,

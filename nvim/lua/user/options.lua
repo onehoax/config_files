@@ -1,3 +1,7 @@
+-- local api = vim.api
+local g = vim.g
+local opt = vim.opt
+
 local options = {
   backup = false,                          -- creates a backup file
   clipboard = "unnamedplus",               -- allows neovim to access the system clipboard
@@ -28,7 +32,7 @@ local options = {
   number = true,                           -- set numbered lines
   relativenumber = false,                  -- set relative numbered lines
   numberwidth = 4,                         -- set number column width to 2 {default 4}
-  virtualedit = "all",			   -- allow cursor on whitespace
+  virtualedit = "all",			               -- allow cursor on whitespace
   signcolumn = "yes",                      -- always show the sign column, otherwise it would shift the text each time
   wrap = false,                            -- display lines as one long line
   linebreak = true,                        -- companion to wrap, don't split words
@@ -39,13 +43,19 @@ local options = {
 }
 
 for k, v in pairs(options) do
-  vim.opt[k] = v
+  opt[k] = v
 end
 
--- vim.opt.shortmess = "ilmnrx"                        -- flags to shorten vim messages, see :help 'shortmess'
-vim.opt.shortmess:append "c"                           -- don't give |ins-completion-menu| messages
-vim.opt.iskeyword:append "-"                           -- hyphenated words recognized by searches
-vim.opt.formatoptions:remove({ "c", "r", "o" })        -- don't insert the current comment leader automatically for auto-wrapping comments using 'textwidth', hitting <Enter> in insert mode, or hitting 'o' or 'O' in normal mode.
-vim.opt.runtimepath:remove("/usr/share/vim/vimfiles")  -- separate vim plugins from neovim in case vim still in use
+-- opt.shortmess = "ilmnrx"                        -- flags to shorten vim messages, see :help 'shortmess'
+opt.shortmess:append "c"                           -- don't give |ins-completion-menu| messages
+opt.iskeyword:append "-"                           -- hyphenated words recognized by searches
+opt.formatoptions:remove({ "c", "r", "o" })        -- don't insert the current comment leader automatically for auto-wrapping comments using 'textwidth', hitting <Enter> in insert mode, or hitting 'o' or 'O' in normal mode.
+opt.runtimepath:remove("/usr/share/vim/vimfiles")  -- separate vim plugins from neovim in case vim still in use
 
 
+-- Better Netrw, alternatively just use vinegar.vim
+g.netrw_banner = 0 -- Hide banner
+g.netrw_browse_split = 4 -- Open in previous window
+g.netrw_altv = 1 -- Open with right splitting
+g.netrw_liststyle = 3 -- Tree-style view
+g.netrw_winsize = 20
