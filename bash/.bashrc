@@ -122,5 +122,9 @@ fi
 # Set vi mode in prompt
  set -o vi
 
+# set JAVA_HOME and include it in PATH
+JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+#PATH=$JAVA_HOME/bin:$PATH
+
 # ghcup-env
 [ -f "/home/andres/.ghcup/env" ] && source "/home/andres/.ghcup/env"
