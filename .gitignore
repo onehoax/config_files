@@ -38,5 +38,7 @@ nordvpn/
 qalculate/
 JetBrains/
 cef_user_data/
+Exodus/
+jgit/
 
 nvim_old/autoload/
