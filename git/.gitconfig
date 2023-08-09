@@ -1,3 +1,8 @@
+# Use the following in your home dir's .gitconfig file to source from this one
+#
+# [include]
+#   path = ~/.config/git/.gitconfig
+
 [user]
   name = Andres Osorio
   email = andres.osoriogr@gmail.com
