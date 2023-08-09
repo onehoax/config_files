@@ -1,3 +1,6 @@
+# DO NOT source this file from your home dir;
+# the functionality will NOT work properly for some reason
+
 # Use vi key-bindings in shell
 set editing-mode vi
 
