@@ -12,3 +12,5 @@
   st = status
   br = branch
   lg = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[init]
+  defaultBranch = main
