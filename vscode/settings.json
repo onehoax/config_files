@@ -1,0 +1,56 @@
+{
+  // General
+  "editor.minimap.enabled": false,
+  "zenMode.restore": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.hideTabs": false,
+  "files.autoSave": "off",
+  "workbench.colorTheme": "Nord",
+  //"editor.lineNumbers": "relative",
+  "editor.tabCompletion": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "git.openRepositoryInParentFolders": "never",
+
+  // Path Intellisense
+  // "typescript.suggest.paths": false,
+  // "javascript.suggest.paths": false,
+
+  // Vim
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.sneak": true,
+  "vim.easymotionMarkerooundColor": "#020202",
+  "vim.leader": "<space>",
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "s"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["revealInExplorer"]
+    }
+  ],
+  "vim.handleKeys": {
+    // To disbale specific vim ctrl bindings
+    // "<C-a>": false
+  },
+
+  // Languages
+  "haskell.manageHLS": "GHCup"
+}
