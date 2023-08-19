@@ -10,12 +10,8 @@
   //"editor.lineNumbers": "relative",
   "editor.tabCompletion": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "git.openRepositoryInParentFolders": "never",
-
-  // Path Intellisense
-  // "typescript.suggest.paths": false,
-  // "javascript.suggest.paths": false,
 
   // Vim
   "vim.easymotion": true,
@@ -52,5 +48,12 @@
   },
 
   // Languages
-  "haskell.manageHLS": "GHCup"
+  "haskell.manageHLS": "GHCup",
+
+  // Path Intellisense
+  // "typescript.suggest.paths": false,
+  // "javascript.suggest.paths": false,
+
+  // Enable flat config for ESLint extension
+  "eslint.experimental.useFlatConfig": true,
 }
