@@ -12,7 +12,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "git.openRepositoryInParentFolders": "never",
-  "terminal.integrated.letterSpacing": 1, // to show underscores in terminal
   "workbench.iconTheme": "material-icon-theme",
   "editor.detectIndentation": false,
   "editor.indentSize": "tabSize",
