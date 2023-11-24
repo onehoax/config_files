@@ -16,6 +16,8 @@
   "workbench.iconTheme": "material-icon-theme",
   "editor.detectIndentation": false,
   "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
 
   // Vim
   "vim.easymotion": true,
@@ -71,7 +73,6 @@
   // Total Script
   "totalTypeScript.hideAllTips": true,
   "totalTypeScript.hideBasicTips": true,
-  "editor.tabSize": 2,
   "svg.preview.transparencyGrid": false,
   "svg.preview.boundingBox": false
 }
