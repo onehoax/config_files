@@ -6,12 +6,16 @@
   "zenMode.hideStatusBar": false,
   "zenMode.hideTabs": false,
   "files.autoSave": "off",
-  "workbench.colorTheme": "Nord",
-  //"editor.lineNumbers": "relative",
+  "explorer.sortOrder": "type",
+  "workbench.colorTheme": "GitHub Dark",
   "editor.tabCompletion": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "git.openRepositoryInParentFolders": "never",
+  "terminal.integrated.letterSpacing": 1, // to show underscores in terminal
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.detectIndentation": false,
+  "editor.indentSize": "tabSize",
 
   // Vim
   "vim.easymotion": true,
@@ -47,13 +51,27 @@
     // "<C-a>": false
   },
 
+  // CSS
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  // Tailwind
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.emmetCompletions": true,
+
   // Languages
   "haskell.manageHLS": "GHCup",
 
-  // Path Intellisense
-  // "typescript.suggest.paths": false,
-  // "javascript.suggest.paths": false,
-
   // Enable flat config for ESLint extension
   "eslint.experimental.useFlatConfig": true,
+
+  // Total Script
+  "totalTypeScript.hideAllTips": true,
+  "totalTypeScript.hideBasicTips": true,
+  "editor.tabSize": 2,
+  "svg.preview.transparencyGrid": false,
+  "svg.preview.boundingBox": false
 }
