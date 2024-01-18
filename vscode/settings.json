@@ -4,7 +4,6 @@
   "zenMode.restore": false,
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
-  "zenMode.hideTabs": false,
   "files.autoSave": "off",
   "explorer.sortOrder": "type",
   "workbench.colorTheme": "GitHub Dark",
@@ -12,11 +11,17 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "git.openRepositoryInParentFolders": "never",
-  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.letterSpacing": 1,
   "editor.detectIndentation": false,
   "editor.indentSize": "tabSize",
+  "workbench.editor.openPositioning": "last",
+  "workbench.iconTheme": "file-icons",
+  "files.dialog.defaultPath": "/home/andres/dev",
   "editor.tabSize": 2,
-  "editor.insertSpaces": true,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
 
   // Vim
   "vim.easymotion": true,
@@ -69,9 +74,24 @@
   // Enable flat config for ESLint extension
   "eslint.experimental.useFlatConfig": true,
 
+  // SVG
+  "svg.preview.transparencyGrid": false,
+  "svg.preview.boundingBox": false,
+
   // Total Script
   "totalTypeScript.hideAllTips": true,
   "totalTypeScript.hideBasicTips": true,
-  "svg.preview.transparencyGrid": false,
-  "svg.preview.boundingBox": false
+
+  // Java
+  "java.completion.favoriteStaticMembers": [
+    "org.junit.Assert.*",
+    "org.junit.Assume.*",
+    "org.junit.jupiter.api.Assertions.*",
+    "org.junit.jupiter.api.Assumptions.*",
+    "org.junit.jupiter.api.DynamicContainer.*",
+    "org.junit.jupiter.api.DynamicTest.*",
+    "org.mockito.Mockito.*",
+    "org.mockito.ArgumentMatchers.*",
+    "org.mockito.Answers.*"
+  ]
 }
