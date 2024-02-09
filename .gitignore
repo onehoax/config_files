@@ -9,3 +9,5 @@
 !nvim/
 !vim/
 !vscode/
+!node/
+!postgres/
