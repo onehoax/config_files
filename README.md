@@ -1,1 +1,1 @@
-Repo for personal configuration files.
+# Repo for personal configuration files.
