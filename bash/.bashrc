@@ -118,26 +118,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# Set vi mode in prompt
- set -o vi
-
-# set JAVA_HOME and include it in PATH
-JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
-#PATH=$JAVA_HOME/bin:$PATH
-
-# ghcup-env
-[ -f "/home/andres/.ghcup/env" ] && source "/home/andres/.ghcup/env"
-
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# pnpm
-export PNPM_HOME="/home/andres/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
