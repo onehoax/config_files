@@ -8,7 +8,6 @@
   "explorer.sortOrder": "type",
   "workbench.colorTheme": "GitHub Dark",
   "editor.tabCompletion": "on",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "git.openRepositoryInParentFolders": "never",
   "terminal.integrated.letterSpacing": 1,
@@ -16,12 +15,10 @@
   "editor.indentSize": "tabSize",
   "workbench.editor.openPositioning": "last",
   "workbench.iconTheme": "file-icons",
-  "files.dialog.defaultPath": "/home/andres/dev",
   "editor.tabSize": 2,
   "explorer.confirmDragAndDrop": false,
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.importModuleSpecifier": "non-relative",
-
   // Vim
   "vim.easymotion": true,
   "vim.incsearch": true,
@@ -33,64 +30,62 @@
   "vim.leader": "<space>",
   "vim.visualModeKeyBindings": [
     {
-      "before": [">"],
-      "after": [">", "g", "v"]
+      "before": [
+        ">"
+      ],
+      "after": [
+        ">",
+        "g",
+        "v"
+      ]
     },
     {
-      "before": ["<"],
-      "after": ["<", "g", "v"]
+      "before": [
+        "<"
+      ],
+      "after": [
+        "<",
+        "g",
+        "v"
+      ]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "s"],
-      "commands": ["workbench.action.toggleSidebarVisibility"]
+      "before": [
+        "<leader>",
+        "s"
+      ],
+      "commands": [
+        "workbench.action.toggleSidebarVisibility"
+      ]
     },
     {
-      "before": ["<leader>", "e"],
-      "commands": ["revealInExplorer"]
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        "revealInExplorer"
+      ]
     }
   ],
   "vim.handleKeys": {
     // To disbale specific vim ctrl bindings
     // "<C-a>": false
   },
-
   // CSS
   "editor.quickSuggestions": {
     "strings": true
   },
-
   // Tailwind
   "files.associations": {
     "*.css": "tailwindcss"
   },
   "tailwindCSS.emmetCompletions": true,
-
-  // Languages
-  "haskell.manageHLS": "GHCup",
-
   // Enable flat config for ESLint extension
   "eslint.experimental.useFlatConfig": true,
-
   // SVG
   "svg.preview.transparencyGrid": false,
   "svg.preview.boundingBox": false,
-
-  // Total Script
-  "totalTypeScript.hideAllTips": true,
-  "totalTypeScript.hideBasicTips": true,
-
-  // Java
-  "java.completion.favoriteStaticMembers": [
-    "org.junit.Assert.*",
-    "org.junit.Assume.*",
-    "org.junit.jupiter.api.Assertions.*",
-    "org.junit.jupiter.api.Assumptions.*",
-    "org.junit.jupiter.api.DynamicContainer.*",
-    "org.junit.jupiter.api.DynamicTest.*",
-    "org.mockito.Mockito.*",
-    "org.mockito.ArgumentMatchers.*",
-    "org.mockito.Answers.*"
-  ]
 }

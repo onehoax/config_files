@@ -1,12 +1,12 @@
 // Place your key bindings in this file to override the defaults
 [
   {
-    "key": "tab",
+    "key": "j",
     "command": "selectNextSuggestion",
     "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
   },
   {
-    "key": "shift+tab",
+    "key": "k",
     "command": "selectPrevSuggestion",
     "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
   },
