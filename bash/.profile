@@ -28,4 +28,4 @@ fi
 
 # Go
 export PATH="$PATH:$HOME/apps/go/language/go/bin"
-export PATH="$PATH:$HOME/apps/go/packages/bin"
+export PATH="$PATH:$HOME/apps/go/packages/usr_bin"

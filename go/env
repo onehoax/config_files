@@ -1,1 +1,2 @@
 GOPATH=/home/andres/apps/go/packages
+GOBIN=/home/andres/apps/go/packages/usr_bin
