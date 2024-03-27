@@ -25,3 +25,7 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+# Go
+export PATH="$PATH:$HOME/apps/go/language/go/bin"
+export PATH="$PATH:$HOME/apps/go/packages/bin"

@@ -1,13 +1,1 @@
-/*
-
-!.gitignore
-!README.md
-!alacritty/
-!bash/
-!git/
-!node_defaults/
-!nvim/
-!vim/
-!vscode/
-!node/
-!postgres/
+go/telemetry/
