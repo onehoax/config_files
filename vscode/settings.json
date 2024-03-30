@@ -8,7 +8,6 @@
   "explorer.sortOrder": "type",
   "workbench.colorTheme": "GitHub Dark",
   "editor.tabCompletion": "on",
-  "editor.formatOnSave": true,
   "git.openRepositoryInParentFolders": "never",
   "terminal.integrated.letterSpacing": 1,
   "editor.detectIndentation": false,
@@ -19,6 +18,14 @@
   "explorer.confirmDragAndDrop": false,
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  // Format
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+
   // Vim
   "vim.easymotion": true,
   "vim.incsearch": true,
@@ -30,62 +37,60 @@
   "vim.leader": "<space>",
   "vim.visualModeKeyBindings": [
     {
-      "before": [
-        ">"
-      ],
-      "after": [
-        ">",
-        "g",
-        "v"
-      ]
+      "before": [">"],
+      "after": [">", "g", "v"]
     },
     {
-      "before": [
-        "<"
-      ],
-      "after": [
-        "<",
-        "g",
-        "v"
-      ]
+      "before": ["<"],
+      "after": ["<", "g", "v"]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "<leader>",
-        "s"
-      ],
-      "commands": [
-        "workbench.action.toggleSidebarVisibility"
-      ]
+      "before": ["<leader>", "q"],
+      "commands": ["workbench.action.closeActiveEditor"]
     },
     {
-      "before": [
-        "<leader>",
-        "e"
-      ],
-      "commands": [
-        "revealInExplorer"
-      ]
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    {
+      "before": ["leader", "o", "p"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "c", "h"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "s", "v"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "s", "h"],
+      "commands": ["workbench.action.splitEditorOrthogonal"]
     }
   ],
-  "vim.handleKeys": {
-    // To disbale specific vim ctrl bindings
-    // "<C-a>": false
-  },
+
   // CSS
   "editor.quickSuggestions": {
     "strings": true
   },
+
   // Tailwind
   "files.associations": {
     "*.css": "tailwindcss"
   },
   "tailwindCSS.emmetCompletions": true,
-  // Enable flat config for ESLint extension
+
+  // ESLint: Enable flat config for ESLint extension
   "eslint.experimental.useFlatConfig": true,
+
   // SVG
   "svg.preview.transparencyGrid": false,
-  "svg.preview.boundingBox": false,
+  "svg.preview.boundingBox": false
 }
