@@ -14,34 +14,34 @@
   // SUGGESTIONS AND AUTOCOMPLETION SHORTCUTS
   {
     // "ctrl+j": Selects the next suggestion in the suggestions widget when the widget is visible.
-    "key": "shift+j",
+    "key": "ctrl+j",
     "command": "selectNextSuggestion",
     "when": "suggestWidgetVisible"
   },
   {
     // "ctrl+k": Selects the previous suggestion in the suggestions widget when the widget is visible.
-    "key": "shift+k",
+    "key": "ctrl+k",
     "command": "selectPrevSuggestion",
     "when": "suggestWidgetVisible"
   },
   {
     // "ctrl+j": Selects the next item in the Quick Open dialog when it is open.
-    "key": "shift+j",
+    "key": "ctrl+j",
     "command": "workbench.action.quickOpenSelectNext",
     "when": "inQuickOpen"
   },
   {
     // "ctrl+k": Selects the previous item in the Quick Open dialog when it is open.
-    "key": "shift+k",
+    "key": "ctrl+k",
     "command": "workbench.action.quickOpenSelectPrevious",
     "when": "inQuickOpen"
   },
   {
-    "key": "shift+alt+j",
+    "key": "ctrl+alt+j",
     "command": "editor.action.moveLinesDownAction"
   },
   {
-    "key": "shift+alt+k",
+    "key": "ctrl+alt+k",
     "command": "editor.action.moveLinesUpAction"
   },
 
