@@ -59,6 +59,10 @@
       "commands": ["revealInExplorer"]
     },
     {
+      "before": ["leader", "o", "f"],
+      "commands": ["actions.find"]
+    },
+    {
       "before": ["leader", "o", "p"],
       "commands": ["workbench.action.quickOpen"]
     },
