@@ -1,5 +1,5 @@
 {
-  // General
+  // GENERAL
   "editor.minimap.enabled": false,
   "zenMode.restore": false,
   "zenMode.hideLineNumbers": false,
@@ -19,14 +19,17 @@
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.importModuleSpecifier": "non-relative",
 
-  // Format
+  // FORMAT
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
 
-  // Vim
+  // VIM
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
@@ -85,13 +88,13 @@
     "strings": true
   },
 
-  // Tailwind
+  // TAILWIND
   "files.associations": {
     "*.css": "tailwindcss"
   },
   "tailwindCSS.emmetCompletions": true,
 
-  // ESLint: Enable flat config for ESLint extension
+  // ESLINT: Enable flat config for ESLint extension
   "eslint.experimental.useFlatConfig": true,
 
   // SVG
