@@ -20,13 +20,16 @@
   "typescript.preferences.importModuleSpecifier": "non-relative",
 
   // FORMAT
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
   },
 
   // VIM
@@ -99,5 +102,5 @@
 
   // SVG
   "svg.preview.transparencyGrid": false,
-  "svg.preview.boundingBox": false
+  "svg.preview.boundingBox": false,
 }
