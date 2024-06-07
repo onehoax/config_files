@@ -20,7 +20,7 @@
   "typescript.preferences.importModuleSpecifier": "non-relative",
 
   // FORMAT
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[go]": {
     "editor.defaultFormatter": "golang.go"
@@ -102,5 +102,5 @@
 
   // SVG
   "svg.preview.transparencyGrid": false,
-  "svg.preview.boundingBox": false,
+  "svg.preview.boundingBox": false
 }
