@@ -1,5 +1,6 @@
 {
-  // GENERAL
+  // ############################## GENERAL ##############################
+
   "editor.minimap.enabled": false,
   "zenMode.restore": false,
   "zenMode.hideLineNumbers": false,
@@ -10,36 +11,58 @@
   "editor.tabCompletion": "on",
   "git.openRepositoryInParentFolders": "never",
   "terminal.integrated.letterSpacing": 1,
-  "editor.detectIndentation": false,
   "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
   "workbench.editor.openPositioning": "last",
   "workbench.iconTheme": "file-icons",
-  "editor.tabSize": 2,
   "explorer.confirmDragAndDrop": false,
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.importModuleSpecifier": "non-relative",
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.module": "php"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "eslint.experimental.useFlatConfig": true,
+  "svg.preview.transparencyGrid": false,
+  "svg.preview.boundingBox": false,
+  // CSS
+  "editor.quickSuggestions": {
+    "strings": true
+  },
 
-  // FORMAT
+  // ############################## FORMAT ##############################
+
+  // GENERAL
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[go]": {
-    "editor.defaultFormatter": "golang.go"
-  },
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
-  },
+  // PHP
+  // "[php]": {
+  //   "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  // },
+  // GO
+  // "[go]": {
+  //   "editor.defaultFormatter": "golang.go"
+  // },
+  // // JAVA
+  // "[java]": {
+  //   "editor.defaultFormatter": "redhat.java"
+  // },
 
-  // VIM
+  // ############################## INTELISENSE ##############################
+
+  // PHP
+  "intelephense.environment.phpVersion": "7.4.33",
+
+  // ############################## VIM ##############################
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
   "vim.sneak": true,
-  "vim.easymotionMarkerooundColor": "#020202",
   "vim.leader": "<space>",
   "vim.visualModeKeyBindings": [
     {
@@ -84,23 +107,5 @@
       "before": ["<leader>", "s", "h"],
       "commands": ["workbench.action.splitEditorOrthogonal"]
     }
-  ],
-
-  // CSS
-  "editor.quickSuggestions": {
-    "strings": true
-  },
-
-  // TAILWIND
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
-  "tailwindCSS.emmetCompletions": true,
-
-  // ESLINT: Enable flat config for ESLint extension
-  "eslint.experimental.useFlatConfig": true,
-
-  // SVG
-  "svg.preview.transparencyGrid": false,
-  "svg.preview.boundingBox": false
+  ]
 }
