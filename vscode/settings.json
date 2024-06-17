@@ -38,23 +38,12 @@
   // GENERAL
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // PHP
-  // "[php]": {
-  //   "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  // },
-  // GO
-  // "[go]": {
-  //   "editor.defaultFormatter": "golang.go"
-  // },
-  // // JAVA
-  // "[java]": {
-  //   "editor.defaultFormatter": "redhat.java"
-  // },
 
   // ############################## INTELISENSE ##############################
 
   // PHP
-  "intelephense.environment.phpVersion": "7.4.33",
+  "php.suggest.basic": false,
+  // "php.files.exclude": ["**/*"],
 
   // ############################## VIM ##############################
   "vim.easymotion": true,
