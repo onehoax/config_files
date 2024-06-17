@@ -21,8 +21,7 @@
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "files.associations": {
-    "*.css": "tailwindcss",
-    "*.module": "php"
+    "*.css": "tailwindcss"
   },
   "tailwindCSS.emmetCompletions": true,
   "eslint.experimental.useFlatConfig": true,
@@ -39,11 +38,10 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
-  // ############################## INTELISENSE ##############################
+  // ############################## INTELLISENSE ##############################
 
   // PHP
-  "php.suggest.basic": false,
-  // "php.files.exclude": ["**/*"],
+  "intelephense.files.associations": ["*.php", "*.phtml"],
 
   // ############################## VIM ##############################
   "vim.easymotion": true,
