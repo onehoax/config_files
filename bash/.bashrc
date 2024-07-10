@@ -122,4 +122,4 @@ fi
 # asdf
 . "$HOME/.asdf/asdf.sh"
 . "$HOME/.asdf/completions/asdf.bash"
-export ASDF_CONFIG_FILE="$HOME/.config/.asdfrc"
+export ASDF_CONFIG_FILE="$HOME/.config/asdf/.asdfrc"
